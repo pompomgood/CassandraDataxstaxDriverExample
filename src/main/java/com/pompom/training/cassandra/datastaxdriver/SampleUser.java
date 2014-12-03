@@ -12,7 +12,7 @@ public class SampleUser {
 	private String group;
 	@ClusteringColumn(value = 0)
 	private String name;
-	private Set<String> habit;
+	private Set<String> habits;
 
 	public String getGroup() {
 		return group;
@@ -30,12 +30,12 @@ public class SampleUser {
 		this.name = name;
 	}
 
-	public Set<String> getHabit() {
-		return habit;
+	public Set<String> getHabits() {
+		return habits;
 	}
 
-	public void setHabit(Set<String> habit) {
-		this.habit = habit;
+	public void setHabits(Set<String> habits) {
+		this.habits = habits;
 	}
 
 }
