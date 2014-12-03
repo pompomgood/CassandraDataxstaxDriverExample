@@ -8,7 +8,8 @@ Example for connecting cassandra by datastax driver
 
 #How to run
 1. Setup Cassandra
-  [Installing DataStax Community](http://www.datastax.com/documentation/cassandra/2.1/cassandra/install/install_cassandraTOC.html)
+  * [Installing DataStax Community](http://www.datastax.com/documentation/cassandra/2.1/cassandra/install/install_cassandraTOC.html)
+  * Create keyspace and table by cassandraScript.cql
 2. Set Cassandra server ip
   * Modify cassandraServerIP in CassandraAccessTest class
 3. Clone this project
